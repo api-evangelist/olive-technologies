@@ -1,8 +1,17 @@
 aid: olive-technologies
 name: Olive Technologies
-description: Olive Technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Olive is an AI-native vendor evaluation and technology procurement platform
+  that runs the full RFP lifecycle in a single workspace — from requirements
+  management and stakeholder collaboration through AI-powered comparative vendor
+  scoring and final selection. It maintains vendor intelligence across more than
+  12,000 vendors and 380+ categories, and is built for IT leaders, procurement
+  teams, and consultancies who need unbiased, structured software sourcing.
+  Olive is a Techstars-backed company; by design it takes no fees from vendors,
+  funding the platform through buyer subscriptions instead. Olive has no public
+  developer API surface — no documentation, SDKs, or API reference are published
+  at this time; this profile captures the company's public web and security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/olive-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://olive.app/wp-content/uploads/2022/06/Olive_Logo_green_favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Procurement
+- RFP
+- Vendor Management
+- Software Evaluation
+- Sourcing
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://olive.app/
+- type: Pricing
+  url: https://olive.app/rfp-pricing/
+- type: Login
+  url: https://dashboard.olive.app/login
+- type: Blog
+  url: https://olive.app/resources/blog/
+- type: TermsOfService
+  url: https://olive.app/terms/
+- type: PrivacyPolicy
+  url: https://olive.app/privacy/
+- type: DomainSecurity
+  url: security/olive-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
