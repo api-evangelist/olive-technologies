@@ -44,7 +44,7 @@ accessModel:
 image: https://olive.app/wp-content/uploads/2022/06/Olive_Logo_green_favicon.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Procurement
@@ -70,6 +70,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://olive.app/feed/
+  type: BlogRSS
 - type: Website
   url: https://olive.app/
 - type: Pricing
