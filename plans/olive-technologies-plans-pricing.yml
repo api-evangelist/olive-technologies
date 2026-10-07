@@ -1,0 +1,61 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://olive.app/rfp-pricing/
+sources:
+- https://olive.app/rfp-pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Single Project
+published: true
+note: Pricing page with separate IT team and consultant tabs; Platform plans billed annually, Single Project
+  one-time fee, Research free. API access listed as an add-on at Platform tier, not separately priced.
+plan_count: 5
+currency: USD
+plans:
+- name: Free Research (IT teams)
+  price_text: $0
+  price: 0
+  currency: USD
+  period: none
+  included_quota: Explore any vendor category with OliveAI, build requirements, deep vendor research,
+    export custom analyst report; no credit card required
+- name: Single Project
+  price_text: $8,000
+  price: 8000
+  currency: USD
+  period: one-time
+  unit: per project
+  included_quota: One full evaluation — discovery through decision; invite stakeholders and shortlisted
+    vendors; AI-built requirements and vendor research; scoring, analytics, final report; dedicated onboarding
+    and support
+- name: Platform
+  price_text: Platform pricing starting at $24,000 annually
+  price: 24000
+  currency: USD
+  period: year
+  included_quota: Unlimited evaluations, unlimited stakeholders, AI trained on org data, VRM, cross-project
+    analytics, templates, priority support; SSO, API access, whitelabeling available
+- name: Free Research (Consultants)
+  price_text: $0
+  price: 0
+  currency: USD
+  period: none
+  included_quota: OliveAI research, requirements, branded analyst report; no credit card required
+- name: Consultancy
+  price_text: Platform pricing starting at $24,000 annually
+  price: 24000
+  currency: USD
+  period: year
+  included_quota: Unlimited client workspaces, branded client environments, AI agents trained on methodology,
+    consultant community, priority support
+rate_limit_statements:
+- Platform plans scale with how many evaluations you run per year — starting at 3, going to unlimited.
