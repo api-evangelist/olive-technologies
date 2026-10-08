@@ -59,3 +59,47 @@ plans:
     consultant community, priority support
 rate_limit_statements:
 - Platform plans scale with how many evaluations you run per year — starting at 3, going to unlimited.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free Research (IT teams)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Single Project
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - one-time
+  - name: Platform
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - year
+  - name: Free Research (Consultants)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Consultancy
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - year
